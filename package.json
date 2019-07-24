@@ -4,7 +4,12 @@
   "description": "Lightweight animation for elements by using Intersection Observer.",
   "main": "index.js",
   "author": "Wesley Moses",
+  "repository": {
+    "url": "https://github.com/wes337/io-animate",
+    "type": "git"
+  },
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "intersection-observer": "^0.7.0"
   }
