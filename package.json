@@ -2,7 +2,6 @@
   "name": "io-animate",
   "version": "1.0.0",
   "description": "Lightweight animation for elements by using Intersection Observer.",
-  "main": "index.js",
   "author": "Wesley Moses",
   "repository": {
     "url": "https://github.com/wes337/io-animate",
@@ -12,5 +11,9 @@
   "private": true,
   "dependencies": {
     "intersection-observer": "^0.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
   }
 }

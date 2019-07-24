@@ -1,6 +1,6 @@
 require('intersection-observer')
 
-function ioAnimate(
+function init(
   selector = '.io-animate',
   animationIn = 'fadeIn',
   animationOut = undefined,
@@ -9,11 +9,12 @@ function ioAnimate(
   const intersectionObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
       if (entry.intersectionRatio > 0) {
-        entry.target.classList.add(animationIn)
+        entry.target.classList.remove('animated', animationOut)
+        entry.target.classList.add('animated', animationIn)
       } else if (entry.intersectionRatio !== 1) {
-        entry.target.classList.remove(animationIn)
+        entry.target.classList.remove('animated', animationIn)
         if (animationOut) {
-          entry.target.classList.add(animationOut)
+          entry.target.classList.add('animated', animationOut)
         }
       }
 
@@ -30,4 +31,4 @@ function ioAnimate(
   elements.forEach((element) => intersectionObserver.observe(element))
 }
 
-module.exports = ioAnimate
+module.exports = { init }
