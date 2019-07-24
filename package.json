@@ -1,0 +1,11 @@
+{
+  "name": "io-animate",
+  "version": "1.0.0",
+  "description": "Lightweight animation for elements by using Intersection Observer.",
+  "main": "index.js",
+  "author": "Wesley Moses",
+  "license": "MIT",
+  "dependencies": {
+    "intersection-observer": "^0.7.0"
+  }
+}
