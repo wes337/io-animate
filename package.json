@@ -8,7 +8,6 @@
     "type": "git"
   },
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "intersection-observer": "^0.7.0"
   }
