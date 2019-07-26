@@ -10,5 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "intersection-observer": "^0.7.0"
-  }
+  },
+  "keywords": ["animation", "animate", "intersection observer", "css", "scroll"]
 }
