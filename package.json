@@ -1,6 +1,6 @@
 {
   "name": "io-animate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight animation for elements by using Intersection Observer.",
   "author": "Wesley Moses",
   "repository": {
@@ -11,5 +11,11 @@
   "dependencies": {
     "intersection-observer": "^0.7.0"
   },
-  "keywords": ["animation", "animate", "intersection observer", "css", "scroll"]
+  "keywords": [
+    "animation",
+    "animate",
+    "intersection observer",
+    "css",
+    "scroll"
+  ]
 }
