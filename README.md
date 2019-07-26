@@ -76,7 +76,3 @@ Using every data attribute, the resulting CSS class of an element would look lik
 ## Authors
 
 * **Wesley Moses** - *Initial work* - [wes337](https://github.com/wes337)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
