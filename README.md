@@ -55,7 +55,15 @@ Add the document query selector specified when initalizing io-Animate to the ele
 Each element must specify the animation CSS class to trigger. Optionally, you can add more classes for delay and speed times.
 
 ```html
-<div class="io-animate" data-ioa-in="fadeIn" data-ioa-out="fadeOut" data-ioa-delay="delay-1s" data-ioa-speed="slow">Once visible, this div will fade in slowly after a 1 second delay, and will fade out while scrolling out.</div>
+<div
+     class="io-animate"
+     data-ioa-in="fadeIn"
+     data-ioa-out="fadeOut"
+     data-ioa-delay="delay-1s"
+     data-ioa-speed="slow"
+>
+  Once visible, this div will fade in slowly after a 1 second delay, and will fade out while scrolling out.
+</div>
 ```
 
 There are 4 data attributes to configure:
